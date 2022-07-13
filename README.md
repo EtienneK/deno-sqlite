@@ -1,3 +1,16 @@
+# FORKED
+
+This is a fork of <https://github.com/dyedgreen/deno-sqlite> with added support
+for [FTS5](https://www.sqlite.org/fts5.html).
+
+## Building
+
+```sh
+sudo apt-get -y install --no-install-recommends tclsh gcc brotli
+cd build
+make setup amalgamation release
+```
+
 # Deno SQLite Module
 
 [![test status](https://github.com/dyedgreen/deno-sqlite/workflows/tests/badge.svg?branch=master)](https://github.com/dyedgreen/deno-sqlite/actions)
